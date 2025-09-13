@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网站 - 联系我们</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>联系我们</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="services.html">服务</a></li>
+            <li><a href="contact.html" class="active">联系</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="page-content">
+            <h2 style="text-align: center;">随时欢迎您的到来</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <br>
+                    <address>
+                        <p><strong>电话：</strong>......</p>
+                        <p><strong>地址：</strong>......</p>
+                        <p><strong>邮箱：</strong>......</p>
+                        <p><strong>工作时间：</strong>周一至周五 9:00-18:00</p>
+                    </address>
+                    
+                </div>
+                
+                <div class="contact-form">
+                    <h3>发送消息</h3>
+                    <br>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">姓名：</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">邮箱：</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">主题：</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">消息内容：</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit">发送消息</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map">
+                <h3>我的位置</h3>
+                <div class="map-placeholder">
+                    <!-- 这里放置真实的地图嵌入代码 -->
+                    <img src="" alt="地图位置">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 我的网站. 保留所有权利.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
